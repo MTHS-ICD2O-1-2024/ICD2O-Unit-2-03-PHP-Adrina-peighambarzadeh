@@ -22,32 +22,33 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">The Hello World program, in PHP</span>
+        <span class="mdl-layout-title">Addres, in PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/image.png" alt="laptop image" width="250" />
+        <img src="./images/street (1).jpg" alt="laptop image" width="250" />
       </div>
       <div class="page-content-php">
         <form action="answer.php" method="GET">
           <p>Street Number</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="street-number">
-            <label class="mdl-textfield__label" for="street-number"> street number ...</
-                </div>
-              <br />
-                    <p> Street Name</p>
-                  <div class="mdl-textfield mdl-js-textfield">
-                    <input class="mdl-textfield__input" type="text" name="street-name">
-                    <label class="mdl-textfield__label" for="street-name">street name ...</label>
-                  </div>
-                  <br />
-                  <!-- Accent-colored raised button with ripple -->
-                  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-                    type="submit">
-                    Enter
-                  </button>
+            <label class="mdl-textfield__label" for="street-number">Street nubmer ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          <br />
+          <p>Street Name</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" name="street-name">
+            <label class="mdl-textfield__label" for="street-name">street name ...</label>
+          </div>
+          <br />
+          <!-- Accent-colored raised button with ripple -->
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            type="submit">
+            Enter
+          </button>
         </form>
       </div>
     </main>
